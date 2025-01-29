@@ -7,3 +7,14 @@ function verificarLogin() {
         alert('Login válido!');
     }
 }
+function verificarEmail(){
+
+    var email = document.getElementById('useremail').value;
+
+    // Verifica se o e-mail contém "@" e ".com.br"
+    if (email.includes("@") && email.includes(".com.br")) {
+        alert("E-mail válido!");
+    } else {
+         alert("E-mail inválido. Certifique-se de incluir '@' e '.com.br'.");
+     }
+}
