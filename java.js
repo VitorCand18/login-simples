@@ -5,7 +5,7 @@ function verificarCampos() {
     if (username === 'vitorcand') {
         alert('Esse login não esta disponível.');
     } else {
-        alert('Login válido!');
+        alert('Login disponível!');
     }
 
     // Verifica se o e-mail contém "@" e ".com.br"
