@@ -5,13 +5,13 @@ function verificarCampos() {
     if (username === 'vitorcand') {
         alert('Esse login não esta disponível.');
     } else {
-        alert('Login válido!');
+        alert('Login indisponível!');
     }
 
     // Verifica se o e-mail contém "@" e ".com.br"
     if (email.includes("@") && email.includes(".com.br")) {
-        alert("E-mail válido!");
+        alert("E-mail disponível!");
     } else {
-         alert("E-mail inválido. Certifique-se de incluir '@' e '.com.br'.");
+         alert("E-mail indisponível. Certifique-se de incluir '@' e '.com.br'.");
      }
 }
