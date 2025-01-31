@@ -3,15 +3,15 @@ function verificarCampos() {
     let email = document.getElementById('useremail').value;
 
     if (username === 'vitorcand') {
-        alert('Esse login não esta disponível.');
-    } else {
         alert('Login indisponível!');
+    } else {
+        alert('Login disponível!');
     }
 
     // Verifica se o e-mail contém "@" e ".com.br"
     if (email.includes("@") && email.includes(".com.br")) {
-        alert("E-mail disponível!");
+        alert("E-mail válido!");
     } else {
-         alert("E-mail indisponível. Certifique-se de incluir '@' e '.com.br'.");
+         alert("E-mail inválido. Certifique-se de incluir '@' e '.com.br'.");
      }
 }
